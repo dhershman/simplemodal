@@ -1,4 +1,8 @@
-simplemodal
-===========
+#Simple Modal Design jQuery and js 
+---
 
-Simple Lightbox style modal built with jQuery and javascript
+* This small side project is a really easy way to create lightbox style modals for your site and such. Requires jQuery 
+  * Simple copy and paste method good to go
+  * Completely editable to your needs and customizable css
+
+This is a far from optimized setup, its better than a cloggy yui but not a replacement for jQuery-ui etc. thanks for checking out my little projects
