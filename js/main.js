@@ -16,9 +16,9 @@
 	$.fn.siteModal = function(options) {
 		// elements = $(el).attr('class');
 		options = $.extend({
-					title: options.title,
-					description: options.desc
-				});
+			title: options.title,
+			description: options.desc
+		});
 		return (
 			add_block_page(),
 			add_popup_box(),
