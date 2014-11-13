@@ -9,9 +9,10 @@
 		left: "30%"
 	});
 
-	//We use $.fn so we can call this jQuery function else where like so: $("element").siteModal(el)
-	//The switch allows you to add more cases to the modals library which is based off the text used in the html
-	//the listener automatically converts new events to lowercase so you can just use lowercase in the switch
+	//We use $.fn so we can call this jQuery function else where like so: $("element").siteModal(options)
+	//with the recent update to make the modal dynamic we can shorten our modal code drasticly and remove
+	//all of the base case statements now, we edit our code syntax to add in options as a common practice.
+	//(See domath.js for example)
 	$.fn.siteModal = function(options) {
 		// elements = $(el).attr('class');
 		options = $.extend({
