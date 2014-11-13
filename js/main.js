@@ -8,15 +8,6 @@
 		top: "20%",
 		left: "30%"
 	});
-	//this is our listener so we can listen for clicks on html with the attribute 'modal' on it. (in the p
-	//tags of course)
-	$.fn.convertHTML = function(el, options) {
-	$('.modal').on('click', function(e) {
-		var el = $(this).text().toLowerCase();
-		console.log(el, options, 'inside jquery')
-		$.fn.siteModal(el, options);
-	});
-}
 
 	//We use $.fn so we can call this jQuery function else where like so: $("element").siteModal(el)
 	//The switch allows you to add more cases to the modals library which is based off the text used in the html
