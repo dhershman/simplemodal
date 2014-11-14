@@ -14,7 +14,6 @@
 	//all of the base case statements now, we edit our code syntax to add in options as a common practice.
 	//(See domath.js for example)
 	$.fn.siteModal = function(options) {
-		// elements = $(el).attr('class');
 		options = $.extend({
 			title: options.title,
 			description: options.desc
