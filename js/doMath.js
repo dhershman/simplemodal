@@ -12,7 +12,7 @@ doMath = function() {
 sendBack = function(n) {
 	options = {
 		title: "Math!",
-		desc: "Our math answer is " + n
+		desc: "Our math answer is " + n + " Our equation was: 10 x 20"
 	};
 	console.log(options)
 	$('.modal').siteModal(options);
